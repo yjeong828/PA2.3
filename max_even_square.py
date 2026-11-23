@@ -7,7 +7,7 @@ def max_even_square(nums):
         if n % 2 == 0: 
             if n > max_num:
                 max_num = n
-    square = max_num * 2 
+    square = max_num ** 2 
     return square
 
 print("The max even number squared is:", max_even_square(numbers))
