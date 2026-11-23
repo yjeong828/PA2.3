@@ -4,7 +4,7 @@ numbers = [3, 7, 2, 8, 5, 10, 6]
 def max_even_square(nums):
     max_num = 0
     for n in nums:
-        if n % 2 == 1: 
+        if n % 2 == 0: 
             if n > max_num:
                 max_num = n
     square = max_num * 2 
